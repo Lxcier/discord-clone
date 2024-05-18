@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: ABCGin;
+    src: url(assets/fonts/ABCGintoNormalVariable.ttf);
+}
+
+@font-face {
+    font-family: ABCGinNord;
+    src: url(assets/fonts/ABCGintoNord-Bold-Trial-BF651b7b7670e10.otf);
+}
+
+@font-face {
+    font-family: GGSans;
+    src: url(assets/fonts/gg\ sans\ Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: GGSans;
+    src: url(assets/fonts/gg\ sans\ Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: GGSans;
+    src: url(assets/fonts/gg\ sans\ Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: GGSans;
+    src: url(assets/fonts/gg\ sans\ Bold.ttf);
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1180px;
+    width: 90%;
+}
+
+.btn {
+    background: #23272a;
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all .2s;
+}
+
+.btn-2{
+    @apply flex items-center text-center gap-2 rounded-3xl;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    transition: all .2s;
+    padding: 14px 32px;
+}
+
+.btn-2:hover {
+    box-shadow: 0 8px 5px rgba(0, 0, 0, .2);
+}
+
