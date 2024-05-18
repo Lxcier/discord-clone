@@ -1,7 +1,6 @@
-# Vue 3 + Vite
-
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+<h1>Discord Clone</h1>
+<h2>Página clone do discord.com/download </h2>
+<h4>Tecnologias utilizadas: <span>Vue | TailwindCSS</span></h4>
+<p>Falta resposividade. Podem usar como desafio para vocês</p>
+<hr>
+<img src="https://github.com/Lxcier/discord-clone/assets/168615861/ee0ae30d-36e3-4999-b1a8-a667ee6e24f5">
